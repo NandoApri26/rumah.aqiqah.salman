@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rumah Qurban Salman</title>
+    <title>Home || Rumah Qurban Salman</title>
 
     <!-- Panggil Icon -->
     <link rel="Icon" href="./assets/Logo.png" type="image/x-icon">
@@ -23,65 +23,249 @@
 
 <body>
 
-    <div class="Main">
-        <!-- Awal Search -->
+    <div class="main">
+
+        <!-- ===== Awal Navbar ===== -->
         <section id="Header">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
-                    <a href="./index.html">
+                    <a class="navbar-brand" href="./index.html" target="_blank">
                         <img src="./assets/Logo.png" alt="" width="130">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                        data-bs-target="#icon-hamburger" aria-controls="icon-hamburger" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <form class="d-flex search">
-                            <input class="form-control me-2" type="search" placeholder="Masukkan kata kunci . . ."
-                                aria-label="Search">
-                            <button class="btn btn-search" type="submit">Search</button>
-                            <a href="./login.html" class="btn btn-login login">Login</a>
-                        </form>
+                    <div class="collapse navbar-collapse justify-content-center" id="icon-hamburger">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="produk.html">Produk</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Artikel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Kontak</a>
+                            </li>
+                        </ul>
                     </div>
+                    <a href="" class="btn btn-qurban" id="icon-hamburger">Order</a>
                 </div>
             </nav>
         </section>
+        <!-- ===== Akhir Navbar ===== -->
 
-        <!-- Awal Navbar -->
-        <nav class="navbar navbar-expand-sm sticky-top">
-            <div class="container">
-                <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <!-- ===== Awal Banner ===== -->
+        <section id="Banner">
+            <div id="carouselBenner" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner Gambar-Banner">
+                    <div class="carousel-item active">
+                        <img src="./assets/Banner.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/Banner1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/Banner2.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselBenner"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
-                <div class="collapse navbar-collapse  justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="Berita/index.html">Berita</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./Bisnis/index.html">Bisnis</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./Olahraga/index.html">Olahraga</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./Kesehatan/index.html">Kesehatan</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./Selebrity/index.html">Selebrity</a>
-                        </li>
-                    </ul>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselBenner"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- ===== Akhir Banner ===== -->
+
+        <!-- ===== Awal Alasan ===== -->
+        <section id="Alasan">
+            <div class="bg-judul mt-0 mt-lg-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col Judul">
+                            <h2>KENAPA HARUS AQIQAH DI SALMAN</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
-        <!-- Akhir Navbar -->
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-4 isi">
+                        <div class="bg-isi">
+                            <h5>Pilhan Hewan Berkualitas</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto assumenda eum temporibus
+                                vel,
+                                molestiae incidunt laboriosam molestias ratione autem praesentium, minus illum porro
+                                vitae
+                                cupiditate dignissimos explicabo pariatur, tempora nesciunt.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 isi">
+                        <div class="bg-isi">
+                            <h5>Dikelolah Oleh Profesional</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto assumenda eum temporibus
+                                vel,
+                                molestiae incidunt laboriosam molestias ratione autem praesentium, minus illum porro
+                                vitae
+                                cupiditate dignissimos explicabo pariatur, tempora nesciunt.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 isi">
+                        <div class="bg-isi">
+                            <h5>Diantar Sampai Tujuan</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto assumenda eum temporibus
+                                vel,
+                                molestiae incidunt laboriosam molestias ratione autem praesentium, minus illum porro
+                                vitae
+                                cupiditate dignissimos explicabo pariatur, tempora nesciunt.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Akhir Alasan ===== -->
 
+        <!-- ===== Awal Pilihan Paket ===== -->
+        <section id="Pilihan-Paket">
+            <div class="bg-judul mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col Judul">
+                            <h2>PILIHAN PAKET</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row image">
+                    <div class="col-6">
+                        <img src="./assets/AqiqahReguler.png" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img src="./assets/AqiqahBerbagi.png" alt="">
+                    </div>
+                </div>
+                <div class="row button mt-3 text-center">
+                    <div class="col">
+                        <a href="" class="btn btn-pesan">Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Akhir Pilihan Paket ===== -->
+
+        <!-- ===== Awal Fiqih Aqiqah ===== -->
+        <section id="Fiqih-Aqiqah">
+            <div class="bg-judul mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col Judul">
+                            <h2>FIQIH AQIQAH</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-lg-6 isi">
+                        <div class="bg-isi">
+                            <h5>Apa itu aqiqah anak?</h5>
+                            <p>Akikah (bahasa Arab: عقيقة, transliterasi: Aqiqah) adalah pengurbanan hewan dalam syariat
+                                Islam, sebagai bentuk rasa syukur umat Islam terhadap Allah SWT. mengenai bayi yang
+                                dilahirkan. Hukum akikah menurut pendapat yang paling kuat adalah sunah muakkadah, dan
+                                ini
+                                adalah pendapat jumhur ulama menurut hadits. Kemudian ada ulama yang menjelaskan bahwa
+                                akikah sebagai penebus adalah artinya akikah itu akan menjadikan terlepasnya kekangan
+                                jin
+                                yang mengiringi semua bayi sejak lahir.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 isi">
+                        <div class="bg-isi">
+                            <h5>Berapa Hukum Banyaknya Aqiqah untuk Anak?</h5>
+                            <ol>
+                                <li> Perempuan satu ekor.” (Hadis sanadnya shahih riwayat Imam Ahmad dan Ashhabus Sunan)
+                                </li>
+                                <li>Dari Aisyah Radhiallaahu anha berkata, yang artinya: “Nabi S.A.W. memerintahkan
+                                    mereka
+                                    agar disembelihkan akikah dari anak laki-laki dua ekor domba yang sepadan dan dari
+                                    anak
+                                    perempuan satu ekor.” (Shahih riwayat At Tirmidzi)
+                                    dan karena kebahagian dengan mendapatkan anak laki-laki adalah berlipat dari
+                                    dilahirkannya anak perempuan, dan dikarenakan laki-laki adalah dua kali lipat wanita
+                                    dalam banyak hal.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Akhir Fiqih Aqiqah ===== -->
+
+        <!-- ===== Awal Footer ===== -->
+        <section id="Footer">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-3 logo">
+                        <img src="./assets/Logo.png" alt="" width="200">
+                        <p>Rumah Aqiqah merupakan
+                            salah satu website resmi yang
+                            mempermudah kita untuk
+                            beraqiqah. Hewan-hewan
+                            pilihan yang sudah di cek
+                            kesehatannya.</p>
+                    </div>
+                    <div class="col-2 mt-4 tentangkami">
+                        <h6>Tentang Kami</h6>
+                        <ul>
+                            <a href="./produk.html">
+                                <li>Produk</li>
+                            </a>
+                            <a href="./artikel.html">
+                                <li>Artikel</li>
+                            </a>
+                            <a href="./kontak.html">
+                                <li>Kontak</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-2 mt-4 kontak">
+                        <h6>Kontak</h6>
+                        <p>Jl. Gelap Nyawang No. 4 Bandung
+                            , Kode Pos 40132
+                            Call Center : 0811 222 8333</p>
+                    </div>
+                    <div class="col-4 peta">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1980.4777613779916!2d107.6087682580542!3d-6.895923598754277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-6.897332199999999!2d107.6096949!4m5!1s0x2e68e6508bb0f523%3A0xc49aae97dad7c0f1!2srumah%20amal%20salman!3m2!1d-6.8945209!2d107.6109312!5e0!3m2!1sid!2sid!4v1667233207543!5m2!1sid!2sid"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col copyright text-center mb-3">
+                        <h6>CopyRight <i class="fa-regular fa-copyright">
+                            </i> 2022 <span>Rumah Aqiqah Salman. All Right
+                                Reserved</span>
+                        </h6>
+                        <p>Design By : Nando Apri</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Akhir Footer ===== -->
 
     </div>
-
 
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/jquery.slim.min.js"></script>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home || Rumah Qurban Salman</title>
+
+    <!-- Panggil Icon -->
+    <link rel="Icon" href="./assets/Logo.png" type="image/x-icon">
+    <!-- Panggil Style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Panggil Mobile.css -->
+    <link rel="stylesheet" href="./css/mobile.css">
+    <!-- Panggil Tablet.css -->
+    <link rel="stylesheet" href="./css/tablet.css">
+    <!-- Panggil Bootstrap-->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- Panggil Font Awesome -->
+    <script src="https://kit.fontawesome.com/d23477193c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main">
+        <!-- ===== Awal Navbar ===== -->
+        <section id="Header">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="./index.html" target="_blank">
+                        <img src="./assets/Logo.png" alt="" width="130">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#icon-hamburger" aria-controls="icon-hamburger" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="icon-hamburger">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="produk.html">Produk</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Artikel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Kontak</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="" class="btn btn-qurban" id="icon-hamburger">Order</a>
+                </div>
+            </nav>
+        </section>
+        <!-- ===== Akhir Navbar ===== -->
+
+        <!-- ===== Awal Breadcrumb ===== -->
+        <section id="Label">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li><a href="./index.html"><i class="fa-sharp fa-solid fa-house me-2"></i></a> </li>
+                                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="./produk.html">Produk</a></li>
+                                <li class="breadcrumb-item"><a href="./keranjang.html">Keranjang</a></li>
+                                <li class="breadcrumb-item"><b>Data Anak</b></li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Akhir Breadcrumb ===== -->
+
+        <!-- ===== Awal Data Anak =====  -->
+        <section id="Data-Anak">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <form action="" method="">
+                            <!-- Upload Foto -->
+                            <label for="UploadFile" class="form-label">Upload Foto</label>
+                            <input type="file" class="form-control" id="UploadFile">
+                            <!-- Nama Anak -->
+                            <label for="NamaAnak" class="form-label">Nama Anak</label>
+                            <input type="text" class="form-control" id="NamaAnak" name="NamaAnak"
+                                placeholder="Udin Sarifuddin">
+                            <!-- Jenis Kelamin -->
+                            <label for="JenisKelamin" class="form-label">Jenis Kelamin</label><br>
+                            <input class="form-check-input" type="radio" name="JenisKelamin" id="Laki-Laki"
+                                value="option1">
+                            <label class="form-check-label" for="Laki-Laki">Laki-Laki</label>
+                            <input class="form-check-input" type="radio" name="JenisKelamin" id="Perempuan"
+                                value="option2">
+                            <label class="form-check-label" for="Perempuan">Perempuan</label><br>
+                            <!-- Nama Ayah -->
+                            <label for="NamaAyah" class="form-label">Nama Ayah</label>
+                            <input type="text" class="form-control" id="NamaAyah" name="NamaAyah"
+                                placeholder="Sarifuddin">
+                            <!-- Nama Ibu -->
+                            <label for="NamaIbu" class="form-label">Nama Ibu</label>
+                            <input type="text" class="form-control" id="NamaIbu" name="NamaIbu" placeholder="Sariyati">
+                            <!-- Tempat Lahir -->
+                            <label for="TempatLahir" class="form-label">Tempat Lahir</label>
+                            <input type="text" class="form-control" id="TempatLahir" name="TempatLahir"
+                                placeholder="Sariyati">
+                            <!-- Tanggal Lahir -->
+                            <label for="TanggalLahir" class="form-label">Tanggal Lahir</label>
+                            <input type="date" class="form-control" id="TanggalLahir" name="TanggalLahir"
+                                placeholder="Sariyati">
+                        </form>
+                        <div class="text-center mt-4">
+                            <a href="" class="btn btn-kirim">Kirim</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Akhir Data Anak =====  -->
+
+        <!-- ===== Awal Footer ===== -->
+        <section id="Footer">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-3 logo">
+                        <img src="./assets/Logo.png" alt="" width="200">
+                        <p>Rumah Aqiqah merupakan
+                            salah satu website resmi yang
+                            mempermudah kita untuk
+                            beraqiqah. Hewan-hewan
+                            pilihan yang sudah di cek
+                            kesehatannya.</p>
+                    </div>
+                    <div class="col-2 mt-4 tentangkami">
+                        <h6>Tentang Kami</h6>
+                        <ul>
+                            <a href="./produk.html">
+                                <li>Produk</li>
+                            </a>
+                            <a href="./artikel.html">
+                                <li>Artikel</li>
+                            </a>
+                            <a href="./kontak.html">
+                                <li>Kontak</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-2 mt-4 kontak">
+                        <h6>Kontak</h6>
+                        <p>Jl. Gelap Nyawang No. 4 Bandung
+                            , Kode Pos 40132
+                            Call Center : 0811 222 8333</p>
+                    </div>
+                    <div class="col-4 peta">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1980.4777613779916!2d107.6087682580542!3d-6.895923598754277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-6.897332199999999!2d107.6096949!4m5!1s0x2e68e6508bb0f523%3A0xc49aae97dad7c0f1!2srumah%20amal%20salman!3m2!1d-6.8945209!2d107.6109312!5e0!3m2!1sid!2sid!4v1667233207543!5m2!1sid!2sid"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col copyright text-center mb-2">
+                        <h6>CopyRight <i class="fa-regular fa-copyright">
+                            </i> 2022 <span>Rumah Aqiqah Salman. All Right
+                                Reserved</span>
+                        </h6>
+                        <p>Design By : NandoApri</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Akhir Footer ===== -->
+
+
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/jquery.slim.min.js"></script>
+</body>
+
+</html>

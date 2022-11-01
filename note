@@ -1,0 +1,167 @@
+<!-- ===== Awal Pesan Sekarang ===== -->
+<section id="Pesan-Sekarang">
+    <div class="container">
+        <form action="" method="">
+            <div class="row mt-5 headname text-center">
+                <div class="col-lg-1 radio">
+                    <h6>Pilih</h6>
+                </div>
+                <div class="col-lg-4">
+                    <h6>Gambar</h6>
+                </div>
+                <div class="col-lg-3">
+                    <h6>Nama Paket</h6>
+                </div>
+                <div class="col-lg-3">
+                    <h6>Harga Paket</h6>
+                </div>
+                <div class="col-lg-1">
+                    <h6>Aksi</h6>
+                </div>
+            </div>
+            <hr style="width: 100%; border: 2px solid #07B0C8;">
+            <div class="row text-center">
+                <div class="col-lg-1 radio">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="pilih-menu">
+                    </div>
+                </div>
+                <div class="col-lg-4 image">
+                    <img src="./assets/kambing2.png" alt="">
+                </div>
+                <div class="col-lg-3 nama-paket">
+                    <h5>Paket Platinum</h5>
+                </div>
+                <div class="col-lg-3 harga-paket">
+                    <h5>Rp 3.850.000</h5>
+                </div>
+                <div class="col-lg-1 trash">
+                    <a href="" type=""><i class="fa-solid fa-trash"></i></a>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+<!-- ===== Akhir Pesan Sekarang ===== -->
+
+<!-- ===== Awal Data Pemesanan ===== -->
+<section id="Pemesanan">
+    <div class="container">
+        <div class="row">
+            <div class="bg-judul mt-5">
+                <div class="col Judul">
+                    <h2>Data Pemesanan</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <form action="" method="">
+                <div class="mb-3">
+                    <label for="NamaPemesan" class="form-label">Nama Pemesan</label>
+                    <input type="text" class="form-control" id="NamaPemesan" name="NamaPemesan"
+                        placeholder="Sarifuddin">
+                </div>
+                <div class="mb-3">
+                    <label for="EmailPemesan" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="EmailPemesan" name="EmailPemesan"
+                        placeholder="srifuddin@gmail.com">
+                </div>
+                <div class="mb-3">
+                    <label for="NoHandphone" class="form-label">No Handphone</label>
+                    <input type="text" class="form-control" id="NoHandphone" name="NoHandphone"
+                        placeholder="+62 812 8726 8827">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- ===== Akhir Data Pemesanan ===== -->
+
+<!-- ===== Awal Alamat Pengiriman ===== -->
+<section id="Pengiriman">
+    <div class="container">
+        <div class="row">
+            <div class="bg-judul mt-4">
+                <div class="col Judul">
+                    <h2>Alamat Pengiriman</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <form action="" method="">
+                <div class="mb-3">
+                    <label for="KotaPengiriman" class="form-label">Kota</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Pilih Kota</option>
+                        <option value="1">Bandung</option>
+                        <option value="2">Jogyakarta</option>
+                        <option value="3">Tanggerang</option>
+                        <option value="4">Depok</option>
+                        <option value="5">Palembang</option>
+                        <option value="6">Jakarta Selatan</option>
+                        <option value="7">Cimahi</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="AreaPengiriman" class="form-label">Area Pengiriman (Terdekat)</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Pilih area terdekat</option>
+                        <option value="1">Bandung</option>
+                        <option value="2">Jogyakarta</option>
+                        <option value="3">Tanggerang</option>
+                        <option value="4">Depok</option>
+                        <option value="5">Palembang</option>
+                        <option value="6">Jakarta Selatan</option>
+                        <option value="7">Cimahi</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="TglPenggiriman" class="form-label">Tanggal Pengiriman</label>
+                    <input type="date" class="form-control" id="TglPenggiriman" name="TglPenggiriman"
+                        placeholder="+62 812 8726 8827">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- ===== Akhir Alamat Pengiriman ===== -->
+
+<!-- ===== Awal Data Anak ===== -->
+<section id="Data-Anak">
+    <div class="container">
+        <div class="row">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Data Anak" aria-label="Data Anak"
+                    aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ===== Akhir Data Anak ===== -->
+
+
+
+<!-- CSS -->
+
+/* ===== Awal Pemesanan ===== */
+#Pemesanan .bg-judul,
+#Pengiriman .bg-judul,
+#Data-Anak .bg-judul {
+background-color: #07b0c8;
+border-radius: 5px;
+}
+#Pemesanan .bg-judul h2,
+#Pengiriman .bg-judul h2,
+#Data-Anak .bg-judul h2 {
+color: #fff;
+}
+#Pemesanan label,
+#Pengiriman label {
+font-weight: bold;
+}
+#Pemesanan input,
+#Pengiriman input {
+border: 2px solid #07b0c8;
+}
+/* ===== Akhir Pemesanan ===== */

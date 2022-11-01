@@ -1,56 +1,298 @@
-body {
-  font: 16px/32px poppins;
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-/* Awal Header */
-#Header .navbar {
+/* ===== Awal Navbar ===== */
+.navbar {
   box-shadow: 0px 0px 10px grey;
 }
-#Header .search input {
-  border-color: #07b0c8;
-  font-size: 12px;
-  width: 365px;
-  border-radius: 7px;
-  margin-left: 250px;
+.navbar .btn-qurban {
+  background-color: #07b0c8;
+  color: #fff;
+  font-weight: bold;
+  justify-content: right;
 }
-#Header .search button {
-  border: 2px solid #07b0c8;
+.navbar .btn-qurban:hover {
+  background-color: #fcb82e;
+  color: #fff;
+}
+#Header .navbar ul li a {
   color: #07b0c8;
-  border-radius: 7px;
   font-weight: bold;
 }
-#Header .search button:hover {
-  border: 2px solid #fcb82e;
+#Header .navbar ul li a:hover {
   color: #fcb82e;
-  /* background-color: #07b0c8; */
 }
+/* ===== Akhir Navbar ===== */
 
-#Header .login {
-  border: 2px solid #07b0c8;
-  color: #07b0c8;
-  border-radius: 7px;
-  margin-left: 250px;
-  width: 100px;
+/* ===== Awal Banner ====== */
+#Banner .Gambar-Banner img {
+  margin-top: 8px;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+/* ===== Akhir Banner ===== */
+
+/* ===== Awal Alasan ===== */
+#Alasan .bg-judul,
+#Pilihan-Paket .bg-judul,
+#Fiqih-Aqiqah .bg-judul,
+#Pilihan-Menu .bg-judul {
+  background-color: #07b0c8;
+}
+#Alasan .Judul h2,
+#Pilihan-Paket .Judul h2,
+#Fiqih-Aqiqah .Judul h2 {
+  color: #fff;
   font-weight: bold;
+  text-align: center;
 }
-#Header .login:hover {
-  border: 2px solid #fcb82e;
-  color: #fcb82e;
+#Alasan .bg-isi {
+  background-color: #fff2d9;
+  border-radius: 15px;
 }
-/* Akhir Header */
+#Alasan .isi h5 {
+  color: #717171;
+  font: 18px/22px poppins;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
+#Alasan .isi p {
+  padding: 10px 30px;
+  text-align: justify;
+}
+/* ===== Akhir Alasan ===== */
 
-/* Awal Navbar */
-.sticky-top {
-  box-shadow: 0px 0px 3px grey;
+/* ===== Awal Pilihan Paket ===== */
+#Pilihan-Paket .image img,
+#Detail-Produk .image img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+#Pilihan-Paket .image img:hover {
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+}
+#Pilihan-Paket .btn-pesan {
+  background-color: #fcb82e;
+  font-weight: bold;
+  color: #fff;
+}
+#Pilihan-Paket .btn-pesan:hover {
+  background-color: #07b0c8;
+  font-weight: bold;
+  color: #fff;
+}
+/* ===== Akhir Pilihan Paket ===== */
+
+/* ====== Awal Pesan Sekarang ===== */
+#Pesan-Sekarang .container {
+  box-shadow: 0px 0px 5px grey;
+  border-radius: 20px;
+}
+#Pesan-Sekarang .headname h6 {
   margin-top: 20px;
+  color: #717171;
+  font-family: poppins;
+  font-weight: bold;
 }
-.sticky-top li a {
+#Pesan-Sekarang .radio input {
+  margin-top: 130px;
+  margin-left: 10px;
+}
+#Pesan-Sekarang .image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+#Pesan-Sekarang .nama-paket h5,
+#Pesan-Sekarang .harga-paket h5 {
+  font-weight: bold;
+  font-family: poppins;
+  margin-top: 130px;
+}
+#Pesan-Sekarang .trash a i {
+  font-size: 40px;
+  text-decoration: none;
+  color: rgb(188, 34, 34);
+  margin-top: 115px;
+}
+/* ====== Akhir Pesan Sekarang ===== */
+
+/* ===== Awal Fiqih Aqiqah ===== */
+#Fiqih-Aqiqah .bg-isi {
+  background-color: #fff2d9;
+  border-radius: 15px;
+  width: 100%;
+  height: 285px;
+}
+#Fiqih-Aqiqah .isi h5 {
+  color: #717171;
+  font: 18px/22px poppins;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
+#Fiqih-Aqiqah .isi p,
+#Fiqih-Aqiqah .isi li {
+  padding: 10px 30px;
+  text-align: justify;
+}
+/* ===== Akhir Fiqih Aqiqah ===== */
+
+/* ===== Awal Label ===== */
+#Label .breadcrumb a,
+#Label .breadcrumb li {
+  font-size: 16px;
+  color: #07b0c8;
+  text-decoration: none;
+}
+#Label .breadcrumb a:hover {
+  color: #fcb82e;
+}
+/* ===== Akhir Label ===== */
+
+/* ===== Awal Paket Aqiqah ===== */
+#Paket-Aqiqah .image,
+#Paket-Nasi .image {
+  background-color: #fff;
+  box-shadow: 0px 0px 3px #07b0c8;
+}
+#Paket-Aqiqah .Judul h4,
+#Paket-Aqiqah .image h4,
+#Paket-Nasi .Judul h4,
+#Paket-Nasi .image h4,
+#Detail-Produk .deskripsi h4 {
+  font-weight: semi-bold;
+  font-family: poppins;
+  color: #717171;
+}
+#Paket-Aqiqah .image h5,
+#Paket-Nasi .image h5,
+#Detail-Produk .deskripsi h5 {
+  font-weight: semi-bold;
+  color: #717171;
+  margin-top: -10px;
+}
+#Paket-Aqiqah .btn-detail,
+#Paket-Nasi .btn-detail {
+  border: 2px solid #07b0c8;
   color: #07b0c8;
   font-weight: bold;
 }
-.sticky-top li a:hover {
+#Paket-Aqiqah .btn-detail:hover,
+#Paket-Nasi .btn-detail:hover {
+  border: 2px solid #fcb82e;
+  color: #717171;
+  font-weight: bold;
+}
+/* ===== Akhir Paket Aqiqah ===== */
+
+/* ===== Awal Detail-Produk ===== */
+#Detail-Produk .btn-pesan {
+  background-color: #07b0c8;
+  font-weight: bold;
+  color: #fff;
+}
+#Detail-Produk .btn-pesan:hover {
+  background-color: #fcb82e;
+  font-weight: bold;
+  color: #fff;
+}
+#Detail-Produk .btn-batal,
+#Data-Anak .btn-kirim {
+  border: 2px solid #07b0c8;
+  font-weight: bold;
+  color: #07b0c8;
+  width: 100px;
+}
+#Detail-Produk .btn-batal:hover,
+#Data-Anak .btn-kirim:hover {
+  border: 2px solid #fcb82e;
+  font-weight: bold;
   color: #fcb82e;
 }
-/* Akhir Navbar */
+/* ===== Akhir Detail-Produk ===== */
+
+/* ===== Awal Detail Produk ===== */
+#Pilihan-Menu .Judul h2 {
+  color: #fff;
+  font-weight: bold;
+}
+#Pilihan-Menu .menu h6 {
+  font-weight: bold;
+  font-family: poppins;
+  color: #717171;
+}
+#Pilihan-Menu .menu ol {
+  margin-left: -15px;
+  font-family: poppins;
+}
+#Pilihan-Menu .radio {
+  margin-top: 30px;
+}
+/* ===== Akhir Detail Produk ===== */
+
+/* ===== Awal Pemesanan ===== */
+#Pemesanan .bg-judul,
+#Pengiriman .bg-judul,
+#Data-Anak .bg-judul {
+  background-color: #07b0c8;
+  border-radius: 5px;
+}
+#Pemesanan .bg-judul h2,
+#Pengiriman .bg-judul h2,
+#Data-Anak .bg-judul h2 {
+  color: #fff;
+}
+#Pemesanan label,
+#Pengiriman label,
+#Data-Anak label {
+  font-weight: bold;
+}
+#Pemesanan input,
+#Pengiriman input,
+#Data-Anak input {
+  border: 2px solid #07b0c8;
+}
+/* ===== Akhir Pemesanan ===== */
+
+/* ===== Awal Footer ===== */
+#Footer {
+  box-shadow: 1px 1px 10px grey;
+}
+#Footer .logo img,
+#Footer .peta iframe {
+  margin-top: 40px;
+}
+#Footer .logo p,
+#Footer .kontak p {
+  margin-top: 20px;
+  color: #717171;
+  font-family: poppins;
+}
+#Footer .tentangkami h6,
+#Footer .kontak h6 {
+  margin-top: 50px;
+  font-weight: bold;
+  color: #717171;
+}
+#Footer .tentangkami a {
+  text-decoration: none;
+  color: #717171;
+  font-family: poppins;
+}
+#Footer .tentangkami a:hover {
+  text-decoration: none;
+  color: #07b0c8;
+  font-family: poppins;
+}
+#Footer .tentangkami ul {
+  list-style: none;
+  margin-left: -30px;
+  color: #717171;
+  margin-top: 25px;
+}
+/* ===== Akhir Footer ===== */
