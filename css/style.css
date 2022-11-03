@@ -2,13 +2,24 @@
 .navbar {
   box-shadow: 0px 0px 10px grey;
 }
-.navbar .btn-qurban {
+#Header .btn-login {
+  background-color: #fcb82e;
+  color: #fff;
+  font-weight: bold;
+  justify-content: right;
+}
+#Header .btn-login:hover {
+  background-color: #07b0c8;
+}
+#Header .btn-qurban,
+#Data-Anak .btn-dtanak {
   background-color: #07b0c8;
   color: #fff;
   font-weight: bold;
   justify-content: right;
 }
-.navbar .btn-qurban:hover {
+#Header .btn-qurban:hover,
+#Data-Anak .btn-dtanak:hover {
   background-color: #fcb82e;
   color: #fff;
 }
@@ -17,7 +28,8 @@
   font-weight: bold;
 }
 #Header .navbar ul li a:hover {
-  color: #fcb82e;
+  /* color: #fcb82e; */
+  border-bottom: 5px solid #07b0c8;
 }
 /* ===== Akhir Navbar ===== */
 
@@ -34,7 +46,8 @@
 #Alasan .bg-judul,
 #Pilihan-Paket .bg-judul,
 #Fiqih-Aqiqah .bg-judul,
-#Pilihan-Menu .bg-judul {
+#Pilihan-Menu .bg-judul,
+#Data-Anak .bg-judul {
   background-color: #07b0c8;
 }
 #Alasan .Judul h2,
@@ -70,15 +83,17 @@
 }
 #Pilihan-Paket .image img:hover {
   width: 100%;
-  height: auto;
+  height: 450px;
   opacity: 0.5;
 }
-#Pilihan-Paket .btn-pesan {
+#Pilihan-Paket .btn-pesan,
+#Data-Anak .btn-kembali {
   background-color: #fcb82e;
   font-weight: bold;
   color: #fff;
 }
-#Pilihan-Paket .btn-pesan:hover {
+#Pilihan-Paket .btn-pesan:hover,
+#Data-Anak .btn-kembali:hover {
   background-color: #07b0c8;
   font-weight: bold;
   color: #fff;
@@ -191,12 +206,16 @@
 /* ===== Akhir Paket Aqiqah ===== */
 
 /* ===== Awal Detail-Produk ===== */
-#Detail-Produk .btn-pesan {
+#Detail-Produk .btn-pesan,
+#Detail-Pesanan .btn-bayar,
+#Order .btn-pesan {
   background-color: #07b0c8;
   font-weight: bold;
   color: #fff;
 }
-#Detail-Produk .btn-pesan:hover {
+#Detail-Produk .btn-pesan:hover,
+#Detail-Pesanan .btn-bayar:hover,
+#Order .btn-pesan:hover {
   background-color: #fcb82e;
   font-weight: bold;
   color: #fff;
@@ -221,7 +240,8 @@
   color: #fff;
   font-weight: bold;
 }
-#Pilihan-Menu .menu h6 {
+#Pilihan-Menu .menu h6,
+#Pembayaran .transaksi h6 {
   font-weight: bold;
   font-family: poppins;
   color: #717171;
@@ -238,13 +258,18 @@
 /* ===== Awal Pemesanan ===== */
 #Pemesanan .bg-judul,
 #Pengiriman .bg-judul,
-#Data-Anak .bg-judul {
+#Data-Anak .bg-judul,
+#Pembayaran .bg-judul,
+#Detail-Pesanan .bg-judul {
   background-color: #07b0c8;
   border-radius: 5px;
 }
 #Pemesanan .bg-judul h2,
 #Pengiriman .bg-judul h2,
-#Data-Anak .bg-judul h2 {
+#Data-Anak .bg-judul h2,
+#Data-Anak .bg-judul h4,
+#Pembayaran .bg-judul h2,
+#Detail-Pesanan .bg-judul h2 {
   color: #fff;
 }
 #Pemesanan label,
@@ -254,10 +279,127 @@
 }
 #Pemesanan input,
 #Pengiriman input,
+#Pengiriman select,
 #Data-Anak input {
   border: 2px solid #07b0c8;
 }
 /* ===== Akhir Pemesanan ===== */
+
+/* ===== Awal Pembayaran ===== */
+#Pembayaran .transaksi ul {
+  list-style: none;
+  margin-left: -30px;
+}
+#Pembayaran .transaksi li {
+  font-weight: bold;
+}
+#Pembayaran .transaksi span {
+  font-weight: normal;
+}
+/* ===== Akhir Pembayaran ===== */
+
+/* ===== Awal Detail Pemesanan */
+#Detail-Pesanan .bg-transaksi {
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 10px;
+}
+#Detail-Pesanan .transaksi h5 {
+  font-weight: bold;
+  color: #717171;
+}
+/* ===== Akhir Detail Pemesanan */
+
+/* ===== Awal Order ===== */
+#Order .bg-container {
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 10px;
+}
+#Order .transaksi h5 {
+  color: #717171;
+}
+/* ===== Akhir Order ===== */
+
+/* ===== Awal Artikel ===== */
+#Artikel .artikel {
+  border: 2px solid #07b0c8;
+}
+#Artikel .artikel img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+#Artikel .artikel:hover {
+  opacity: 0.8;
+}
+#Artikel .isi a {
+  text-decoration: none;
+  color: #717171;
+  text-align: justify;
+}
+/* ===== Akhir Artikel ===== */
+
+/* Awal Login */
+#Login .bg-login {
+  background-color: #07b0c8;
+  width: 100%;
+  height: 650px;
+  margin-top: 50px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 25px grey;
+}
+#Login .bg-login h3,
+#Register .bg-register h3 {
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+}
+#Login form,
+#Register form {
+  margin-top: 70px;
+}
+#Login label,
+#Register label {
+  color: #fff;
+}
+#Login .btn-login,
+#Register .btn-daftar {
+  margin-left: 145px;
+  background-color: #fcb82e;
+  color: #fff;
+  margin-top: 40px;
+}
+#Login .btn-login:hover,
+#Register .btn-daftar:hover {
+  margin-left: 145px;
+  background-color: #fff;
+  color: #07b0c8;
+  margin-top: 40px;
+}
+#Login a,
+#Register a {
+  text-decoration: none;
+  color: #1004f9;
+}
+#Login a:hover,
+#Register a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* Akhir Login */
+
+/* Awal Register */
+#Register .bg-register {
+  background-color: #07b0c8;
+  width: 100%;
+  height: 1400px;
+  margin-top: 50px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 25px grey;
+  margin-bottom: 100px;
+}
+/* Akhir Register */
 
 /* ===== Awal Footer ===== */
 #Footer {

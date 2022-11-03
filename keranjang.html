@@ -44,14 +44,15 @@
                                 <a class="nav-link" aria-current="page" href="produk.html">Produk</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Artikel</a>
+                                <a class="nav-link" aria-current="page" href="./artikel.html">Artikel</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Kontak</a>
+                                <a class="nav-link" aria-current="page" href="./kontak.html">Kontak</a>
                             </li>
                         </ul>
                     </div>
-                    <a href="" class="btn btn-qurban" id="icon-hamburger">Order</a>
+                    <a href="./Order.html" class="btn btn-qurban me-2" id="icon-hamburger">Order</a>
+                    <a href="Login.html" type="submit" class="btn btn-login" id="icon-hamburger">Login</a>
                 </div>
             </nav>
         </section>
@@ -76,7 +77,276 @@
         </section>
         <!-- ===== Akhir Breadcrumb ===== -->
 
-        <!--  -->
+        <!-- ===== Awal Pesan Sekarang ===== -->
+        <section id="Pesan-Sekarang">
+            <div class="container">
+                <form action="" method="">
+                    <div class="row mt-5 headname text-lg-center">
+                        <div class="col-lg-1 radio">
+                            <h6>Pilih</h6>
+                        </div>
+                        <div class="col-lg-4">
+                            <h6>Gambar</h6>
+                        </div>
+                        <div class="col-lg-3">
+                            <h6>Nama Paket</h6>
+                        </div>
+                        <div class="col-lg-3">
+                            <h6>Harga Paket</h6>
+                        </div>
+                        <div class="col-lg-1">
+                            <h6>Aksi</h6>
+                        </div>
+                    </div>
+                    <hr style="width: 100%; border: 2px solid #07B0C8;">
+                    <div class="row text-center">
+                        <div class="col-lg-1 radio">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="pilih-menu">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 image">
+                            <img src="./assets/kambing2.png" alt="">
+                        </div>
+                        <div class="col-lg-3 nama-paket">
+                            <h5>Paket Platinum</h5>
+                        </div>
+                        <div class="col-lg-3 harga-paket">
+                            <h5>Rp 3.850.000</h5>
+                        </div>
+                        <div class="col-lg-1 trash">
+                            <a href="" type=""><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- ===== Akhir Pesan Sekarang ===== -->
+
+        <!-- ===== Awal Data Pemesanan ===== -->
+        <section id="Pemesanan">
+            <div class="container">
+                <div class="row">
+                    <div class="bg-judul mt-5">
+                        <div class="col Judul">
+                            <h2>Data Pemesanan</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <form action="" method="">
+                        <div class="mb-3">
+                            <label for="NamaPemesan" class="form-label">Nama Pemesan</label>
+                            <input type="text" class="form-control" id="NamaPemesan" name="NamaPemesan"
+                                placeholder="Sarifuddin">
+                        </div>
+                        <div class="mb-3">
+                            <label for="EmailPemesan" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="EmailPemesan" name="EmailPemesan"
+                                placeholder="srifuddin@gmail.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="NoHandphone" class="form-label">No Handphone</label>
+                            <input type="text" class="form-control" id="NoHandphone" name="NoHandphone"
+                                placeholder="+62 812 8726 8827">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Akhir Data Pemesanan ===== -->
+
+        <!-- ===== Awal Alamat Pengiriman ===== -->
+        <section id="Pengiriman">
+            <div class="container">
+                <div class="row">
+                    <div class="bg-judul mt-4">
+                        <div class="col Judul">
+                            <h2>Alamat Pengiriman</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <form action="" method="">
+                        <div class="mb-3">
+                            <label for="KotaPengiriman" class="form-label">Kota</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Pilih Kota</option>
+                                <option value="1">Bandung</option>
+                                <option value="2">Jogyakarta</option>
+                                <option value="3">Tanggerang</option>
+                                <option value="4">Depok</option>
+                                <option value="5">Palembang</option>
+                                <option value="6">Jakarta Selatan</option>
+                                <option value="7">Cimahi</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="AreaPengiriman" class="form-label">Area Pengiriman (Terdekat)</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Pilih area terdekat</option>
+                                <option value="1">Bandung</option>
+                                <option value="2">Jogyakarta</option>
+                                <option value="3">Tanggerang</option>
+                                <option value="4">Depok</option>
+                                <option value="5">Palembang</option>
+                                <option value="6">Jakarta Selatan</option>
+                                <option value="7">Cimahi</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="TglPenggiriman" class="form-label">Tanggal Pengiriman</label>
+                            <input type="date" class="form-control" id="TglPenggiriman" name="TglPenggiriman"
+                                placeholder="+62 812 8726 8827">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Akhir Alamat Pengiriman ===== -->
+
+        <!-- ===== Awal Data Anak ===== -->
+        <section id="Data-Anak">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 bg-judul">
+                        <h4>Data Anak</h4>
+                    </div>
+                    <div class="col-lg-2">
+                        <a href="./data-anak.html" class="btn btn-dtanak" id="button-addon2"
+                            style="width: 100%; height: auto;">Tambah
+                            Data
+                            Anak</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Akhir Data Anak ===== -->
+
+        <!-- ===== Awal Pembayaran ===== -->
+        <section id="Pembayaran">
+            <div class="container">
+                <div class="row">
+                    <div class="bg-judul mt-4">
+                        <div class="col Judul">
+                            <h2>Pembayaran</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col transaksi mt-3">
+                        <h6>Transfer Bank</h6>
+                        <ul>
+                            <li>BNI : <span>1111999829 a.n. Supirman</span></li>
+                            <li>BRI : <span>999288378 a.n Supirman</span></li>
+                            <li>BCA : <span>9928837 a.n. Supirman</span></li>
+                            <li>Mandiri : <span>22893998 a.n. Supirman</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Akhir Pembayaran ===== -->
+
+        <!-- ===== Awal Detail-Pesanan ===== -->
+        <section id="Detail-Pesanan">
+            <div class="container">
+                <div class="row">
+                    <div class="bg-judul mt-4">
+                        <div class="col Judul">
+                            <h2>Detail-Pesanan</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-transaksi">
+                    <div class="row justify-content-center transaksi mt-5">
+                        <div class="col-lg-4 mt-4">
+                            <h5>Paket Platinum</h5>
+                        </div>
+                        <div class="col-lg-4 text-lg-end mt-5">
+                            <h5>Rp 3.850.000</h5>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center transaksi mt-2">
+                        <div class="col-lg-4">
+                            <h5>Paket Silver</h5>
+                        </div>
+                        <div class="col-lg-4 text-lg-end">
+                            <h5>Rp 5.000.000</h5>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center transaksi mt-2">
+                        <div class="col-lg-4">
+                            <h5>Total Harga</h5>
+                        </div>
+                        <div class="col-lg-4 text-lg-end mb-4">
+                            <h5>Rp 8.850.000</h5>
+                        </div>
+                    </div>
+                </div>
+                <form action="" method="">
+                    <div class="row">
+                        <div class="col text-center mt-4">
+                            <a href="./Order.html" class="btn btn-bayar">Bayar Sekarang</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- ===== Akhir Detail-Pesanan ===== -->
+
+        <!-- ===== Awal Footer ===== -->
+        <section id="Footer">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-3 logo">
+                        <img src="./assets/Logo.png" alt="" width="200">
+                        <p>Rumah Aqiqah merupakan
+                            salah satu website resmi yang
+                            mempermudah kita untuk
+                            beraqiqah. Hewan-hewan
+                            pilihan yang sudah di cek
+                            kesehatannya.</p>
+                    </div>
+                    <div class="col-2 mt-4 tentangkami">
+                        <h6>Tentang Kami</h6>
+                        <ul>
+                            <a href="./produk.html">
+                                <li>Produk</li>
+                            </a>
+                            <a href="./artikel.html">
+                                <li>Artikel</li>
+                            </a>
+                            <a href="./kontak.html">
+                                <li>Kontak</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-2 mt-4 kontak">
+                        <h6>Kontak</h6>
+                        <p>Jl. Gelap Nyawang No. 4 Bandung
+                            , Kode Pos 40132
+                            Call Center : 0811 222 8333</p>
+                    </div>
+                    <div class="col-4 peta">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1980.4777613779916!2d107.6087682580542!3d-6.895923598754277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-6.897332199999999!2d107.6096949!4m5!1s0x2e68e6508bb0f523%3A0xc49aae97dad7c0f1!2srumah%20amal%20salman!3m2!1d-6.8945209!2d107.6109312!5e0!3m2!1sid!2sid!4v1667233207543!5m2!1sid!2sid"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col copyright text-center mb-3">
+                        <h6>CopyRight <i class="fa-regular fa-copyright">
+                            </i> 2022 <span>Rumah Aqiqah Salman. All Right
+                                Reserved</span>
+                        </h6>
+                        <p>Design By : Nando Apri</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Akhir Footer ===== -->
 
 
         <script src="./js/bootstrap.min.js"></script>
